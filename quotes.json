@@ -1,0 +1,7 @@
+[
+  { "text": "Placeholder quote one — replace me in quotes.json.", "author": "Placeholder author" },
+  { "text": "Placeholder quote two — replace me in quotes.json.", "author": "Placeholder author" },
+  { "text": "Placeholder quote three — replace me in quotes.json. This one is deliberately a little longer so you can see how a multi-line quote wraps on a narrow phone screen.", "author": "Placeholder author" },
+  { "text": "Placeholder quote four — replace me in quotes.json. (No author, so no attribution line.)" },
+  { "text": "Placeholder quote five — replace me in quotes.json.", "author": "Placeholder author" }
+]
