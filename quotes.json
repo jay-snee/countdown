@@ -1,7 +1,104 @@
 [
-  { "text": "Placeholder quote one — replace me in quotes.json.", "author": "Placeholder author" },
-  { "text": "Placeholder quote two — replace me in quotes.json.", "author": "Placeholder author" },
-  { "text": "Placeholder quote three — replace me in quotes.json. This one is deliberately a little longer so you can see how a multi-line quote wraps on a narrow phone screen.", "author": "Placeholder author" },
-  { "text": "Placeholder quote four — replace me in quotes.json. (No author, so no attribution line.)" },
-  { "text": "Placeholder quote five — replace me in quotes.json.", "author": "Placeholder author" }
+  {
+    "text": "Be the change request you wish to see in the world."
+  },
+  {
+    "text": "Silence is golden. Mute is platinum."
+  },
+  {
+    "text": "Inhale confidence. Exhale an action log."
+  },
+  {
+    "text": "Dance like nobody's watching. Deploy like everybody is."
+  },
+  {
+    "text": "Your only limit is DA."
+  },
+  {
+    "text": "Stillness is just motion with its camera off."
+  },
+  {
+    "text": "If at first you don't succeed, raise it at the retro."
+  },
+  {
+    "text": "Believe in yourself. Nobody else has capacity this sprint."
+  },
+  {
+    "text": "Yesterday is history. Tomorrow is a mystery. Today is a working day, allegedly."
+  },
+  {
+    "text": "The mountain does not rush. Neither does Governance."
+  },
+  {
+    "text": "Find your inner peace. It's probably in the shared drive, in a folder called Final_v3_final."
+  },
+  {
+    "text": "A goal without a plan is just a wish. A plan without a goal is a Jira epic."
+  },
+  {
+    "text": "Let go of what you cannot control. Such as the pod restart count."
+  },
+  {
+    "text": "Not all who wander are lost. Some are looking for the Teams link."
+  },
+  {
+    "text": "Every cloud has a silver lining. Except AWS, which has a bill."
+  },
+  {
+    "text": "Breathe in. Breathe out. Log this as learning and development hours."
+  },
+  {
+    "text": "Be like water. Find the lowest point and stay there until someone escalates."
+  },
+  {
+    "text": "Every expert was once a beginner who also didn't read the documentation."
+  },
+  {
+    "text": "The best time to plant a tree was 20 years ago. The second best time is after the business case is approved."
+  },
+  {
+    "text": "Your vibe attracts your tribe. Your calendar attracts recurring meetings."
+  },
+  {
+    "text": "Don't count the days. Make the days count. Then put them in a spreadsheet."
+  },
+  {
+    "text": "Silence speaks louder than words. Especially when someone asks for volunteers."
+  },
+  {
+    "text": "Happiness is not a destination. It is a Friday afternoon with nothing broken in production."
+  },
+  {
+    "text": "The tree that bends in the storm survives. The tree that raises a ticket is still waiting."
+  },
+  {
+    "text": "The wise owl says nothing. That is why nobody assigns it actions."
+  },
+  {
+    "text": "Rome wasn't built in a day. It also didn't have a sprint goal."
+  },
+  {
+    "text": "Clear your mind. Clear your cache. Try again."
+  },
+  {
+    "text": "The only constant is change. And the forms you fill in about it."
+  },
+  {
+    "text": "Reach for the stars. If you miss, you'll land in a steering group."
+  },
+  {
+    "text": "Peace comes from within. Do not seek it in the incident channels."
+  },
+  {
+    "text": "Where focus goes, energy flows. Where energy flows, someone books a meeting about it."
+  },
+  {
+    "text": "The early bird gets the worm. The second mouse gets the cheese. The third person asks 'can everyone see my screen?'"
+  },
+  {
+    "text": "A journey is measured not in miles, but in how many times you said 'sorry, you go.'"
+  },
+  {
+    "text": "Be present. Or at least appear green in Teams."
+  }
 ]

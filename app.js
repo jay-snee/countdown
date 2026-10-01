@@ -5,8 +5,8 @@
   var DEFAULTS = {
     target: "2026-10-01T08:30:00Z",
     targetLabel: "Thursday 1 October, 09:30 BST",
-    zeroMessage: "Thank you",
-    quoteIntervalSeconds: 9
+    zeroMessage: "You have now meditated longer than most stand-ups last. Be proud.",
+    quoteIntervalSeconds: 15
   };
   var FALLBACK_QUOTE = { text: "Welcome.", author: "" };
 
@@ -90,6 +90,12 @@
     els.value.textContent = "0:00";
     els.countdown.hidden = true;
 
+    // At zero the message replaces everything: stop and hide the quotes.
+    clearTimeout(quoteTimer);
+    quoteTimer = null;
+    document.body.classList.add("is-finished");
+    els.quotes.setAttribute("aria-hidden", "true");
+
     els.thanks.hidden = false;
     if (immediate) {
       els.thanks.classList.add("is-visible");
@@ -104,7 +110,8 @@
 
   function startCountdown(cfg) {
     targetMs = Date.parse(cfg.target);
-    els.thanks.textContent = String(cfg.zeroMessage || DEFAULTS.zeroMessage);
+    // Non-breaking hyphens so "stand-ups" never splits across lines.
+    els.thanks.textContent = String(cfg.zeroMessage || DEFAULTS.zeroMessage).replace(/-/g, "\u2011");
 
     if (!isFinite(targetMs)) {
       console.warn("[countdown] config.target is not a valid date, using default:", cfg.target);
@@ -210,12 +217,14 @@
 
   function schedule(ms) {
     clearTimeout(quoteTimer);
+    if (finished) return;
     nextQuoteAt = Date.now() + ms;
     quoteTimer = setTimeout(advance, ms);
   }
 
   function advance() {
     quoteTimer = null;
+    if (finished) return;
     if (quotes.length < 2) return;
     if (isPaused()) { pausedRemaining = 0; return; }
     show(quotes[nextIndex()], true);
